@@ -1,0 +1,20 @@
+{
+  "name": "clipboard-landing-page",
+  "version": "1.0.0",
+  "description": "Clipboard Landing Page Challenge from Frontend Mentor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janelizette/clipboard-landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janelizette/clipboard-landing-page/issues"
+  },
+  "homepage": "https://github.com/janelizette/clipboard-landing-page#readme"
+}
