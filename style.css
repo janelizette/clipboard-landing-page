@@ -128,6 +128,28 @@ header > .btn > #mac {
 }
 
 /* Section 3 */
+.three > .content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+}
+
+.three > .content > .content-div {
+  line-height: 30px;
+  width: 25%;
+  margin: 40px 12px;
+}
+
+.three > .content > .content-div > h2 {
+  color: hsl(210, 10%, 33%);
+  margin: 35px 0 20px;
+}
+
+.three > .content > .content-div > p {
+  color: hsl(201, 11%, 66%);
+  font-size: 15px;
+}
 
 /* Footer */
 
