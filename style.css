@@ -205,6 +205,10 @@ a {
   color: hsl(210, 10%, 33%);
 }
 
+a:hover {
+  color: hsl(171, 66%, 44%);
+}
+
 .col-one,
 .col-two,
 .col-three {
@@ -224,6 +228,11 @@ a {
 .links > ul > li {
   cursor: pointer;
   margin: 0 10px;
+  background: none;
+}
+
+svg:hover path {
+  fill: hsl(171, 66%, 44%);
 }
 
 /* For mobile */
