@@ -79,38 +79,55 @@ header > .btn > #mac {
   line-height: 30px;
 }
 
-.section > .content {
+.one > .content {
   display: flex;
   margin-top: 140px;
   align-items: flex-start;
 }
 
-.section > .content > img {
+.one > .content > img {
   width: 53%;
 }
 
-.section > .content > ul {
+.one > .content > ul {
   margin-left: 110px;
   margin-right: 200px;
   margin-top: 0;
 }
 
-.section > .content > ul > li {
+.one > .content > ul > li {
   margin-top: 0;
   margin-bottom: 45px;
 }
 
-.section > .content > ul > li > h2 {
+.one > .content > ul > li > h2 {
   color: hsl(210, 10%, 33%);
   font-size: 24px;
   margin-bottom: 10px;
 }
 
-.section > .content > ul > li > p {
+.one > .content > ul > li > p {
   color: hsl(201, 11%, 66%);
   font-size: 15px;
   line-height: 30px;
 }
+
+.one {
+  margin-bottom: 80px;
+}
+
+/* Section 2 */
+.two > .content {
+  display: flex;
+  justify-content: center;
+  margin: 85px 0 55px;
+}
+.two > .content > img {
+  width: 72%;
+  height: auto;
+}
+
+/* Section 3 */
 
 /* Footer */
 
