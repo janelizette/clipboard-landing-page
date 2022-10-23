@@ -36,13 +36,13 @@ header > p {
   line-height: 30px;
 }
 
-header > .btn {
+.btn {
   display: flex;
   justify-content: center;
-  margin: 60px 0 135px;
+  margin: 55px 0 135px;
 }
 
-header > .btn > button {
+.btn > button {
   border-radius: 50px;
   border: none;
   height: 50px;
@@ -53,12 +53,12 @@ header > .btn > button {
   cursor: pointer;
 }
 
-header > .btn > #ios {
+.btn > #ios {
   background-color: hsl(171, 66%, 44%);
   box-shadow: 0px 3px 1px 0px hsl(171, 66%, 35%);
 }
 
-header > .btn > #mac {
+.btn > #mac {
   background-color: hsl(233, 100%, 69%);
   box-shadow: 0px 3px 1px 0px hsl(233, 100%, 63%);
 }
@@ -128,6 +128,10 @@ header > .btn > #mac {
 }
 
 /* Section 3 */
+.three {
+  margin-bottom: 120px;
+}
+
 .three > .content {
   display: flex;
   justify-content: center;
@@ -149,6 +153,19 @@ header > .btn > #mac {
 .three > .content > .content-div > p {
   color: hsl(201, 11%, 66%);
   font-size: 15px;
+}
+
+/* Section 4 */
+
+.companies {
+  display: flex;
+  flex-direction: column;
+  margin: 0 12%;
+}
+
+.companies > img {
+  width: min-content;
+  margin: 5px 0;
 }
 
 /* Footer */
